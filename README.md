@@ -1,6 +1,7 @@
 # Protein-to-genome-position
 Perl program to convert the protein position into genomic position
 
+
 1) Required perl modules:
 
 use Bio::EnsEMBL::DBSQL::DBAdaptor;
@@ -10,6 +11,7 @@ use Bio::EnsEMBL::Registry;
 use Bio::EnsEMBL::Translation;
 
 use Bio::EnsEMBL::Transcript;
+
 
 
 2) Input format
@@ -27,10 +29,13 @@ ENST00000390369.2	20	115	PF07686.12	V-set
 
 
 
+
 3) How to run the program
 (type at the command or terminal prompt)
 
 perl protein_to_genome.pl
+
+
 
 4) Output format
 (tow column details : Ensemble_id,	Chr_no:start-end)
