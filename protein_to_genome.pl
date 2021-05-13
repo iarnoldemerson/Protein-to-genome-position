@@ -12,9 +12,9 @@ my $transcript_adaptor = $registry->get_adaptor( 'Human', 'Core', 'Transcript' )
 #my $cs = $cs_adaptor->fetch_by_name('chromosome');
 #printf "Coordinate system: %s %s\n", $cs->name(), $cs->version();
 
-open(out,">>out.txt");
+open(out,">>output.txt");
 
-open(FILE,"part10.txt");
+open(FILE,"input.txt");
 my @data=<FILE>;
 close FILE;
 
