@@ -4,9 +4,13 @@ Perl program to convert the protein position into genomic position
 1) Required perl modules:
 
 use Bio::EnsEMBL::DBSQL::DBAdaptor;
+
 use Bio::EnsEMBL::Registry;
+
 use Bio::EnsEMBL::Translation;
+
 use Bio::EnsEMBL::Transcript;
+
 
 2) Input format
 (five column details : Ensemble_id,	domain_start,	domain_end,	Pfam_id,	Pfam_name)
